@@ -17,22 +17,6 @@ def add():
     result = sum(listOfNumbers)
     print(f"Your result is: {result}")  
 
- 
-def calculationSignal():
-    signalChoose = input("Calculator Operations: 1 - Add\n 2- Subtract\n 3- Multiply\n 4- Divide\n")
-    if signalChoose == str(1):
-        add()
-    elif signalChoose == str(2):
-        subs()
-    elif signalChoose == str(3):    
-        multiply()
-    elif signalChoose == str(4):    
-        divide()
-    else:
-        print("Invalid")
-
- 
-
 def subs():
     print("Substracting")
     n1 = int(input("Type your number: "))
@@ -60,6 +44,19 @@ def divide():
     print(f"{n1} x / = ?")
     result = n1 / n2 
     print(f"{n1} / {n2} = {result}")
+
+
+def calculationSignal():
+    signalChoose = input("Calculator Operations: 1 - Add\n 2- Subtract\n 3- Multiply\n 4- Divide\n")
+    match signalChoose:
+            case "1":
+                add()
+            case "2":
+                subs()
+            case "3":
+                multiply
+            case "4": 
+                divide()
 
 
 
