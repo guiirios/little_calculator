@@ -54,7 +54,7 @@ def calculationSignal():
             case "2":
                 subs()
             case "3":
-                multiply
+                multiply()
             case "4": 
                 divide()
 
