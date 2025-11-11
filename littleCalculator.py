@@ -1,64 +1,34 @@
 #MY Calculator
-
-#FUNCTIONS
-def add(): 
-    print("ADDING...")
-    listOfNumbers = []
-    continueTrue = True
-    while continueTrue:
-        number = (input("Type your number:  or ok"))
-        if number.lower() == "ok":
-            break
-        else:
-            number = int(number)
-            listOfNumbers.append(number)
-            print(listOfNumbers)
+class Calculator:
+    def add(self, *args): 
+        #acessing the first number
+        result = args[0] 
+        for num in args[1:]: 
+           result += num 
+        return result
     
-    result = sum(listOfNumbers)
-    print(f"Your result is: {result}")  
+    def substract(self, *args):
+        #saving the first number put on args
+        result = args[0]
+        #while true, the loop will acess each number from args through the num
+        for num in args[1:]:
+            #updating the result, before it was a number, now its a new number 
+            result -= num
+        return result
 
-def subs():
-    print("Substracting")
-    n1 = int(input("Type your number: "))
-    print(f"{n1} x - = ?")
-    n2 = int(input("Type your number: "))
-    print(f"{n1} - {n2} = ")
-    result = n1 - n2 
-    print(f"{n1} - {n2} = {result}")
-
-
-def multiply():
-    print("Multiplyig")
-    n1 = int(input("Type your number: "))
-    print(f"{n1} x ? = ?")
-    n2 = int(input("Type your number: "))
-    result = n1 * n2 
-    print(f"{n1} x {n2} = {result}")
-
-
-def divide():
-    print("Dividing")
-    n1 = int(input("Type your number: "))
-    n2 = int(input("Type your number: "))
-    print(f"{n1} / {n2} = ")
-    print(f"{n1} x / = ?")
-    result = n1 / n2 
-    print(f"{n1} / {n2} = {result}")
+    def multiply(self, *args):
+        result = args[0]
+        for num in args[1:]:
+            result *= num
+        return result
+    
+    def divide(self, *args):
+        result = args[0]
+        for num in args[1:]:
+            result /= num
+        return result
 
 
-def calculationSignal():
-    signalChoose = input("Calculator Operations: 1 - Add\n 2- Subtract\n 3- Multiply\n 4- Divide\n")
-    match signalChoose:
-            case "1":
-                add()
-            case "2":
-                subs()
-            case "3":
-                multiply()
-            case "4": 
-                divide()
-
-
-
-calculationSignal()
-
+#bringing the "character" to life(instantiating)
+cal1 = Calculator()
+cal1.divide(3, 1)
