@@ -24,11 +24,16 @@ class Calculator:
     
     def divide(self, *args):
         result = args[0]
+        #it will take from the first one because result = args[0] is already taking the first one 
         for num in args[1:]:
             result /= num
         return result
 
 
-#bringing the "character" to life(instantiating)
+#bringing the "character" to life(instancing)
 cal1 = Calculator()
-cal1.divide(3, 1)
+cal1.add(4, 5)
+
+
+cal2 = Calculator()
+cal2.divide(2, 1)
