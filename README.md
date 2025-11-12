@@ -1,4 +1,4 @@
-🧮 My Calculator
+#🧮 My Calculator – Operações Matemáticas em Python**
 
 
 
@@ -7,74 +7,59 @@
 
 
 
-A clean and minimal calculator built with Python — created to learn, practice, and apply the fundamentals of programming logic.
+📖 Descrição do Projeto
 
-🌟 Overview
+Este repositório contém uma calculadora simples e funcional, desenvolvida em Python, com base em Programação Orientada a Objetos (POO).
+O objetivo é realizar operações matemáticas básicas de forma dinâmica, usando o recurso de argumentos variáveis (*args).
 
-My Calculator is a simple Python project that performs essential math operations — addition, subtraction, multiplication, and division — using an object-oriented structure.
+A ideia principal é praticar lógica de programação, estrutura de classes e reutilização de código — tudo com uma sintaxe clara e minimalista.
 
-It was made to practice concepts like:
+⚙️ Funcionalidades
+🔢 Operação	📘 Descrição
+➕ Add	Soma múltiplos números.
+➖ Substract	Subtrai números em sequência.
+✖️ Multiply	Multiplica qualquer quantidade de valores.
+➗ Divide	Divide os números progressivamente.
+🧠 Conceitos Utilizados
 
-Class creation
+✨ Programação Orientada a Objetos (POO)
+🎯 *args para receber vários argumentos dinamicamente
+🔁 Looping para percorrer os valores e realizar os cálculos
+📏 Código limpo e modular, com fácil manutenção
 
-Method organization
+📁 Estrutura do Repositório
+📂 Arquivo	📝 Descrição
+calculator.py	Contém a classe principal Calculator e todos os métodos matemáticos.
+README.md	Documentação do projeto.
+🚀 Como Executar
 
-Use of *args for dynamic arguments
+Certifique-se de ter o Python 3.8+ instalado.
 
-Looping and logic flow
-
-Everything is written in a clean and easy-to-understand way, perfect for beginners or anyone revisiting Python fundamentals.
-
-⚙️ Features
-
-➕ Add multiple numbers
-
-➖ Subtract sequentially
-
-✖️ Multiply any amount of values
-
-➗ Divide progressively
-
-🧠 Dynamic input handling with *args
-
-🧩 Clear OOP design for readability and reusability
-
-📂 Project Structure
-my_calculator/
-│
-├── calculator.py      # Main Calculator class
-└── README.md          # Project documentation
-
-🚀 How to Run
-
-Make sure you have Python 3.8+ installed.
-
-Clone or download this repository:
+Faça o clone do repositório:
 
 git clone https://github.com/yourusername/my_calculator.git
 
 
-Open the folder in your terminal or IDE.
+Acesse a pasta do projeto:
 
-Run the file with:
+cd my_calculator
+
+
+Execute o arquivo principal:
 
 python calculator.py
 
-💬 About the Project
+💡 Possíveis Melhorias
 
-This is a learning-focused project, built to strengthen Python fundamentals and explore how simple logic can be written cleanly and clearly.
+Adicionar tratamento de erros (ex: divisão por zero).
 
-You can easily extend it — for example, by adding:
+Implementar operações avançadas (potência, raiz, média).
 
-Square root and power operations
+Criar uma interface gráfica simples (Tkinter ou Web).
 
-Error handling for invalid inputs
+👨‍💻 Autor
 
-A simple interface (CLI or web)
+Guilherme Rios (Rioz) ✨
+Aprendendo e evoluindo em Python, lógica de programação e boas práticas de código.
 
-👨‍💻 Author
-
-Guilherme Rios (Rioz)
-Exploring Python, logic, and clean code — one project at a time.
-
-“Start small, code smart, and keep growing.” 🌱
+"Cada linha de código é um passo a mais rumo à maestria." 💭
