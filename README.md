@@ -7,56 +7,74 @@
 
 
 
-A clean and minimal calculator built with Python — focused on simplicity, logic, and learning.
+A clean and minimal calculator built with Python — created to learn, practice, and apply the fundamentals of programming logic.
 
 🌟 Overview
 
-My Calculator is a personal Python project that performs the four basic math operations — addition, subtraction, multiplication, and division — using a simple class-based structure.
+My Calculator is a simple Python project that performs essential math operations — addition, subtraction, multiplication, and division — using an object-oriented structure.
 
-It’s built with the idea of keeping code simple, readable, and educational, making it a great starting point for anyone learning Python or exploring Object-Oriented Programming.
+It was made to practice concepts like:
 
-⚙️ What It Can Do
+Class creation
+
+Method organization
+
+Use of *args for dynamic arguments
+
+Looping and logic flow
+
+Everything is written in a clean and easy-to-understand way, perfect for beginners or anyone revisiting Python fundamentals.
+
+⚙️ Features
 
 ➕ Add multiple numbers
 
-➖ Subtract values in sequence
+➖ Subtract sequentially
 
-✖️ Multiply any amount of inputs
+✖️ Multiply any amount of values
 
-➗ Divide numbers progressively
+➗ Divide progressively
 
-🧠 Uses *args for flexible and dynamic input
+🧠 Dynamic input handling with *args
 
-🔄 Built with OOP principles for clarity and reusability
+🧩 Clear OOP design for readability and reusability
 
-🧩 Core Concepts
-💡 Concept	🔍 Description
-OOP (Object-Oriented Programming)	Structure and logic organized inside a class
-*args	Handles multiple inputs dynamically
-Loops	Iterate through inputs for calculations
-Readable Logic	Simple code, easy to understand and modify
-📁 Project Structure
+📂 Project Structure
 my_calculator/
 │
-├── calculator.py      # Main logic file
-└── README.md          # Documentation (this file)
+├── calculator.py      # Main Calculator class
+└── README.md          # Project documentation
 
 🚀 How to Run
 
 Make sure you have Python 3.8+ installed.
 
-Download or clone this repository.
+Clone or download this repository:
 
-Run the project with:
+git clone https://github.com/yourusername/my_calculator.git
+
+
+Open the folder in your terminal or IDE.
+
+Run the file with:
 
 python calculator.py
 
+💬 About the Project
 
-Use the methods to perform your calculations — easy, clean, and fast.
+This is a learning-focused project, built to strengthen Python fundamentals and explore how simple logic can be written cleanly and clearly.
 
-👨‍💻 About the Author
+You can easily extend it — for example, by adding:
 
-Guilherme Rios (Rioz) ✨
-A curious mind learning Python, exploring logic, and building projects step by step.
+Square root and power operations
 
-“Start simple, but build with purpose.” 🧠
+Error handling for invalid inputs
+
+A simple interface (CLI or web)
+
+👨‍💻 Author
+
+Guilherme Rios (Rioz)
+Exploring Python, logic, and clean code — one project at a time.
+
+“Start small, code smart, and keep growing.” 🌱
