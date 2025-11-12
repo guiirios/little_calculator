@@ -1,25 +1,37 @@
-##🧮 My Calculator
+🧮 My Calculator
 
-A simple Python calculator that performs basic arithmetic operations — addition, subtraction, multiplication, and division — using flexible argument handling with *args.
 
-🚀 Features
 
-➕ Addition — Adds multiple numbers.
 
-➖ Subtraction — Subtracts multiple numbers in sequence.
 
-✖️ Multiplication — Multiplies any number of inputs.
 
-➗ Division — Divides numbers sequentially.
 
-💻 How It Works
 
-This project defines a Calculator class with methods to handle mathematical operations.
-It uses *args to accept any number of arguments.
+A simple yet powerful calculator built in Python — made to learn, explore, and have fun with clean and dynamic code.
 
-Example
-# Import or paste the class into your project
+🌟 Overview
 
+My Calculator is a minimalist Python project that performs essential math operations:
+addition, subtraction, multiplication, and division — all wrapped inside a single, elegant class.
+
+It’s designed to be:
+🧩 educational, ✨ clean, and 💡 expandable.
+
+⚙️ Features
+
+➕ Addition: Sum any number of values
+
+➖ Subtraction: Subtract in sequence
+
+✖️ Multiplication: Multiply multiple numbers
+
+➗ Division: Divide progressively
+
+🧠 Supports unlimited arguments using *args
+
+📘 Demonstrates Object-Oriented Programming (OOP)
+
+💡 Code Example
 class Calculator:
     def add(self, *args):
         result = args[0]
@@ -45,7 +57,8 @@ class Calculator:
             result /= num
         return result
 
-# Create an instance and use it
+
+# Example usage
 cal1 = Calculator()
 
 print(cal1.add(4, 5))          # ➜ 9
@@ -53,29 +66,31 @@ print(cal1.substract(10, 3))   # ➜ 7
 print(cal1.multiply(2, 3, 4))  # ➜ 24
 print(cal1.divide(100, 5, 2))  # ➜ 10.0
 
-📁 Project Structure
+📂 Project Structure
 my_calculator/
 │
-├── calculator.py      # Main class
+├── calculator.py      # Main class file
 └── README.md          # Project documentation
 
 🧠 Concepts Used
+Concept	Description
+🧩 Classes & Methods	Organizes the logic and keeps the code reusable
+⚡ *args	Handles multiple dynamic inputs easily
+🔁 Loops	Iterate through arguments for calculations
+🧮 Arithmetic Logic	Core math operations implemented manually
+🚀 How to Run
 
-Object-Oriented Programming (OOP) — Encapsulating functionality in a class.
+Make sure you have Python 3.8+ installed.
 
-*args — Handling multiple arguments dynamically.
+Clone or download this repository.
 
-Loops — Iterating through numbers for calculations.
-
-🛠️ Requirements
-
-Python 3.8 or higher
-
-Run the script directly using:
+Run the script using:
 
 python calculator.py
 
-🧩 Author
+👨‍💻 About the Author
 
-Guilherme Rios (Rioz)
-💡 Beginner Python project to practice classes, loops, and argument unpacking.
+👋 Guilherme Rios (Rioz)
+Python learner passionate about logic, clean code, and building cool stuff.
+
+“Great things start with small, consistent steps.” 💭
