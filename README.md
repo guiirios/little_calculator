@@ -7,90 +7,56 @@
 
 
 
-A simple yet powerful calculator built in Python — made to learn, explore, and have fun with clean and dynamic code.
+A clean and minimal calculator built with Python — focused on simplicity, logic, and learning.
 
 🌟 Overview
 
-My Calculator is a minimalist Python project that performs essential math operations:
-addition, subtraction, multiplication, and division — all wrapped inside a single, elegant class.
+My Calculator is a personal Python project that performs the four basic math operations — addition, subtraction, multiplication, and division — using a simple class-based structure.
 
-It’s designed to be:
-🧩 educational, ✨ clean, and 💡 expandable.
+It’s built with the idea of keeping code simple, readable, and educational, making it a great starting point for anyone learning Python or exploring Object-Oriented Programming.
 
-⚙️ Features
+⚙️ What It Can Do
 
-➕ Addition: Sum any number of values
+➕ Add multiple numbers
 
-➖ Subtraction: Subtract in sequence
+➖ Subtract values in sequence
 
-✖️ Multiplication: Multiply multiple numbers
+✖️ Multiply any amount of inputs
 
-➗ Division: Divide progressively
+➗ Divide numbers progressively
 
-🧠 Supports unlimited arguments using *args
+🧠 Uses *args for flexible and dynamic input
 
-📘 Demonstrates Object-Oriented Programming (OOP)
+🔄 Built with OOP principles for clarity and reusability
 
-💡 Code Example
-class Calculator:
-    def add(self, *args):
-        result = args[0]
-        for num in args[1:]:
-            result += num
-        return result
-
-    def substract(self, *args):
-        result = args[0]
-        for num in args[1:]:
-            result -= num
-        return result
-
-    def multiply(self, *args):
-        result = args[0]
-        for num in args[1:]:
-            result *= num
-        return result
-
-    def divide(self, *args):
-        result = args[0]
-        for num in args[1:]:
-            result /= num
-        return result
-
-
-# Example usage
-cal1 = Calculator()
-
-print(cal1.add(4, 5))          # ➜ 9
-print(cal1.substract(10, 3))   # ➜ 7
-print(cal1.multiply(2, 3, 4))  # ➜ 24
-print(cal1.divide(100, 5, 2))  # ➜ 10.0
-
-📂 Project Structure
+🧩 Core Concepts
+💡 Concept	🔍 Description
+OOP (Object-Oriented Programming)	Structure and logic organized inside a class
+*args	Handles multiple inputs dynamically
+Loops	Iterate through inputs for calculations
+Readable Logic	Simple code, easy to understand and modify
+📁 Project Structure
 my_calculator/
 │
-├── calculator.py      # Main class file
-└── README.md          # Project documentation
+├── calculator.py      # Main logic file
+└── README.md          # Documentation (this file)
 
-🧠 Concepts Used
-Concept	Description
-🧩 Classes & Methods	Organizes the logic and keeps the code reusable
-⚡ *args	Handles multiple dynamic inputs easily
-🔁 Loops	Iterate through arguments for calculations
-🧮 Arithmetic Logic	Core math operations implemented manually
 🚀 How to Run
 
 Make sure you have Python 3.8+ installed.
 
-Clone or download this repository.
+Download or clone this repository.
 
-Run the script using:
+Run the project with:
 
 python calculator.py
 
+
+Use the methods to perform your calculations — easy, clean, and fast.
+
 👨‍💻 About the Author
 
-👋 Guilherme Rios (Rioz)
-Python learner passionate about logic, clean code, and building cool stuff.
+Guilherme Rios (Rioz) ✨
+A curious mind learning Python, exploring logic, and building projects step by step.
 
-“Great things start with small, consistent steps.” 💭
+“Start simple, but build with purpose.” 🧠
