@@ -19,13 +19,13 @@ class Calculator:
             result -= num
         return result
 
-    def multiply(self, *args):
+    def multiply(self):
         result = args[0]
         for num in args[1:]:
             result *= num
         return result
     
-    def divide(self, *args):
+    def divide(self):
         result = self.args[0]
         #it will take from the first one because result = args[0] is already taking the first one 
         for num in self.args[1:]:
@@ -36,3 +36,4 @@ class Calculator:
 #bringing the "character" to life(instancing)
 cal1 = Calculator(1,2, 4)
 cal1.add()
+
