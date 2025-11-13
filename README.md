@@ -9,8 +9,6 @@
   Supports basic arithmetic operations and keeps a history of results.
 </p>
 
---
-
 ## 🚀 Features
 
 - ➕ **Addition**
