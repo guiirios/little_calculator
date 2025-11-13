@@ -20,8 +20,8 @@ class Calculator:
         return result
 
     def multiply(self):
-        result = args[0]
-        for num in args[1:]:
+        result = self.args[0]
+        for num in self.args[1:]:
             result *= num
         return result
     
@@ -36,4 +36,5 @@ class Calculator:
 #bringing the "character" to life(instancing)
 cal1 = Calculator(1,2, 4)
 cal1.add()
+
 
