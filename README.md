@@ -1,9 +1,15 @@
-# 🧮 Calculator in Python
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Calculator-blue?style=for-the-badge&logo=python&logoColor=white" alt="Project Badge"/>
+  <img src="https://img.shields.io/badge/Made%20with-Python%20🐍-yellow?style=for-the-badge"/>
+</p>
 
-A simple and clean **Python Calculator** class that performs basic arithmetic operations — addition, subtraction, multiplication, and division — while keeping a history of all calculations.  
-This project was made to practice **OOP (Object-Oriented Programming)** concepts in Python.
+<h1 align="center">🧮 Python Calculator</h1>
+<p align="center">
+  Simple OOP-based calculator built in Python.  
+  Supports basic arithmetic operations and keeps a history of results.
+</p>
 
----
+--
 
 ## 🚀 Features
 
