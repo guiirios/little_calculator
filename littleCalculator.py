@@ -2,14 +2,16 @@ class Calculator:
     #Init is making a default to the methods, as also, assign value to object properties without being manually
     def __init__(self, *args):
         self.args = args
+        self.history = []
 
     def add(self): 
         #acessing the first number
         result = self.args[0] 
         for num in self.args[1:]: 
            result += num 
+        self.history.append(result)
         return result
-    
+
     def substract(self):
         #saving the first number put on args
         result = self.args[0]
@@ -17,12 +19,14 @@ class Calculator:
         for num in self.args[1:]:
             #updating the result, before it was a number, now its a new number 
             result -= num
+        self.history.append(result)
         return result
 
     def multiply(self):
         result = self.args[0]
         for num in self.args[1:]:
             result *= num
+        self.history.append(result)
         return result
     
     def divide(self):
@@ -30,11 +34,23 @@ class Calculator:
         #it will take from the first one because result = args[0] is already taking the first one 
         for num in self.args[1:]:
             result /= num
+        self.history.append(result)
         return result
+    
+    def show_history(self):
+        return self.history
+    
+    def clear_history(self):
+        #using a function to clear
+        self.history.clear()
 
 
 #bringing the "character" to life(instancing)
-cal1 = Calculator(1,2, 4)
+cal1 = Calculator(1,2, 5)
+cal1.multiply()
 cal1.add()
 
 
+print(cal1.show_history())
+cal1.clear_history()
+print(cal1.show_history())
